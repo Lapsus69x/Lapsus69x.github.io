@@ -50,6 +50,41 @@ body.offcanvas {
     -o-transform: translateX(300px);
     transform: translateX(300px); }
 
+    .center-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #0909d2;
+   }
 
-
-
+   .btn {
+    background: #0404045f;
+    padding: 0.9375rem 2.5rem;
+    color: #363636;
+    border-radius: 3.125rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 10px 0 40px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #fff;
+    color: #ffffff;
+    transition: 0.3s;
+    transform: scale(1.03);
+  }
+   .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .enter-btn {
+    background: linear-gradient(to bottom, #1b06d9 10%, #322ceb 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
